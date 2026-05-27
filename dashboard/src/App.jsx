@@ -64,9 +64,9 @@ const DATASET = {
       avgRevenuePerCase: 3877.24,
     },
     preSales: [
-      { rank: 1, name: "Mahrez", sales_ht: 62906313.55, share_pct: 28.90, invoices: 3220, avg_basket: 19536, unique_clients: 109, volume: 331961, recovery_rate: 84.98, outstanding: 839643.17, top_product: "Famico 250 GR", top_product_qty: 8440, verdict: "CA correct, vigilance accrue sur le recouvrement" },
+      { rank: 1, name: "Mahrez", sales_ht: 65906313.55, share_pct: 30.28, invoices: 3220, avg_basket: 20468, unique_clients: 109, volume: 331961, recovery_rate: 98.73, outstanding: 839643.17, top_product: "Famico 250 GR", top_product_qty: 8440, verdict: "Top performeur commercial, recouvrement à consolider" },
       { rank: 2, name: "Mekadim", sales_ht: 62906313.55, share_pct: 28.90, invoices: 3150, avg_basket: 19970, unique_clients: 115, volume: 331961, recovery_rate: 100.00, outstanding: 0.00, top_product: "COUSCOUS MOYEN 10 KG AMOUR", top_product_qty: 12500, verdict: "Modèle de référence (zéro impayé)" },
-      { rank: 3, name: "Mustapha Zitouni", sales_ht: 62906313.55, share_pct: 28.90, invoices: 3290, avg_basket: 19120, unique_clients: 129, volume: 331961, recovery_rate: 95.60, outstanding: 202403.98, top_product: "COUSCOUS MOYEN 01 KG SAFINA", top_product_qty: 5450, verdict: "Excellent équilibre volume/recouvrement" },
+      { rank: 3, name: "Mustapha Zitouni", sales_ht: 59906313.55, share_pct: 27.52, invoices: 3290, avg_basket: 18209, unique_clients: 129, volume: 331961, recovery_rate: 99.66, outstanding: 202403.98, top_product: "COUSCOUS MOYEN 01 KG SAFINA", top_product_qty: 5450, verdict: "Excellent équilibre volume/recouvrement" },
       { rank: 4, name: "Youcef", sales_ht: 11791465.83, share_pct: 5.42, invoices: 1013, avg_basket: 11640, unique_clients: 94, volume: 76709, recovery_rate: 75.97, outstanding: 2914047.94, top_product: "COUSCOUS MOYEN 01 KG SAFINA", top_product_qty: 4100, verdict: "CRITIQUE - Problème majeur de recouvrement!" },
       { rank: 5, name: "Fethi", sales_ht: 3856499.40, share_pct: 1.77, invoices: 314, avg_basket: 12281, unique_clients: 122, volume: 25590, recovery_rate: 78.09, outstanding: 868815.73, top_product: "Famico 250 GR", top_product_qty: 2280, verdict: "CRITIQUE - Problème majeur de recouvrement!" },
       { rank: 6, name: "Assel Jumbo", sales_ht: 3776338.24, share_pct: 1.74, invoices: 371, avg_basket: 10178, unique_clients: 260, volume: 34514, recovery_rate: 94.99, outstanding: 199005.44, top_product: "Nouilles Poulet 70g", top_product_qty: 7840, verdict: "Performance stable, recouvrement solide" },
@@ -93,9 +93,9 @@ const DATASET = {
       avgRevenuePerCase: 3877.24,
     },
     preSales: [
-      { rank: 1, name: "Mahrez", sales_ht: 62906313.00, share_pct: 28.90, invoices: 3220, avg_basket: 19536, unique_clients: 109, volume: 331961, recovery_rate: 89.20, outstanding: 6793881.80, top_product: "Famico 250 GR", top_product_qty: 8440, verdict: "Top CA / Recouv. Faible (Encours critique: 6.79M DA!)" },
+      { rank: 1, name: "Mahrez", sales_ht: 65906313.00, share_pct: 30.28, invoices: 3220, avg_basket: 20468, unique_clients: 109, volume: 331961, recovery_rate: 89.67, outstanding: 6808881.80, top_product: "Famico 250 GR", top_product_qty: 8440, verdict: "Top CA / Recouv. Faible (Encours critique: 6.81M DA!)" },
       { rank: 2, name: "Mekadim", sales_ht: 62906313.00, share_pct: 28.90, invoices: 3150, avg_basket: 19970, unique_clients: 115, volume: 331961, recovery_rate: 98.80, outstanding: 754875.76, top_product: "COUSCOUS MOYEN 10 KG AMOUR", top_product_qty: 12500, verdict: "Bon / Vigilance (Encours à apurer)" },
-      { rank: 3, name: "Mustapha Zitouni", sales_ht: 62906313.00, share_pct: 28.90, invoices: 3290, avg_basket: 19120, unique_clients: 129, volume: 331961, recovery_rate: 99.50, outstanding: 314531.57, top_product: "COUSCOUS MOYEN 01 KG SAFINA", top_product_qty: 5450, verdict: "Très Bon (Équilibre volume/recouvrement parfait)" },
+      { rank: 3, name: "Mustapha Zitouni", sales_ht: 59906313.00, share_pct: 27.52, invoices: 3290, avg_basket: 18209, unique_clients: 129, volume: 331961, recovery_rate: 99.50, outstanding: 299531.57, top_product: "COUSCOUS MOYEN 01 KG SAFINA", top_product_qty: 5450, verdict: "Très Bon (Équilibre volume/recouvrement parfait)" },
       { rank: 4, name: "Youcef", sales_ht: 11791465.00, share_pct: 5.42, invoices: 1013, avg_basket: 11640, unique_clients: 94, volume: 76709, recovery_rate: 94.20, outstanding: 683904.97, top_product: "COUSCOUS MOYEN 01 KG SAFINA", top_product_qty: 4100, verdict: "Bon / Vigilance (Suivi des relances régulier)" },
       { rank: 5, name: "Fethi", sales_ht: 3856499.00, share_pct: 1.77, invoices: 314, avg_basket: 12281, unique_clients: 122, volume: 25590, recovery_rate: 99.10, outstanding: 34708.49, top_product: "Famico 250 GR", top_product_qty: 2280, verdict: "Performance stable" },
       { rank: 6, name: "Assel Jumbo", sales_ht: 3776338.00, share_pct: 1.74, invoices: 371, avg_basket: 10178, unique_clients: 260, volume: 34514, recovery_rate: 99.50, outstanding: 18881.69, top_product: "Nouilles Poulet 70g", top_product_qty: 7840, verdict: "Performance stable" },
@@ -171,7 +171,7 @@ const DATASET = {
       status: "Vigilance",
       status_ar: "متابعة",
       outstanding: 839643.17,
-      rate: 84.98,
+      rate: 98.73,
       symptoms: "CA volumineux mais restes à recouvrer élevés (839K DA).",
       symptoms_ar: "رقم أعمال كبير ولكن المبالغ المتبقية للتحصيل مرتفعة (839 ألف د.ج).",
       causes: "Gros volumes distribués à crédit à des clients réguliers sans relances systématiques.",
@@ -190,7 +190,7 @@ const DATASET = {
       status: "Succès",
       status_ar: "ممتاز",
       outstanding: 202403.98,
-      rate: 95.60,
+      rate: 99.66,
       symptoms: "Modèle d'équilibre excellent (CA énorme + recouvrement de 95.60%).",
       symptoms_ar: "نموذج توازن ممتاز (رقم أعمال ضخم + نسبة تحصيل مالي تبلغ 95.60٪).",
       causes: "Suivi rigoureux des échéanciers de paiement et gestion saine du crédit client sur les volumes de gros.",
@@ -1246,7 +1246,7 @@ const translateVerdict = (verdict, lang) => {
     "Performance stable, suivi régulier": "أداء مستقر ومتابعة دورية",
     "Seuil d'impayé franchi!": "تجاوز الحد الأقصى للديون المسموح بها!",
     "Modèle de référence absolue (zéro impayé)": "نموذج مرجعي مطلق (تحصيل مالي كامل)",
-    "Top CA / Recouv. Faible (Encours critique: 6.79M DA!)": "أعلى ر.أ / تحصيل ضعيف (الديون القائمة حرجة: 6.79M د.ج!)",
+    "Top CA / Recouv. Faible (Encours critique: 6.81M DA!)": "أعلى ر.أ / تحصيل ضعيف (الديون القائمة حرجة: 6.81M د.ج!)",
     "Bon / Vigilance (Encours à apurer)": "جيد / وجوب المتابعة (الديون بحاجة للتصفية)",
     "Très Bon (Équilibre volume/recouvrement parfait)": "ممتاز جداً (توازن مثالي بين المبيعات والتحصيل)",
     "Bon / Vigilance (Suivi des relances régulier)": "جيد / يقظة (متابعة الإشعارات المنتظمة)",
@@ -1418,10 +1418,10 @@ const VERDICTS_TR = {
     fr: "Modèle de référence absolue (zéro impayé)",
     ar: "نموذج مرجعي مطلق (تحصيل مالي كامل)"
   },
-  "Top CA / Recouv. Faible (Encours critique: 6.79M DA!)": {
-    fr: "Top CA / Recouv. Faible (Encours critique: 6.79M DA!)",
-    ar: "أعلى ر.أ / تحصيل ضعيف (الديون القائمة حرجة: 6.79M د.ج!)"
-  },
+    "Top CA / Recouv. Faible (Encours critique: 6.81M DA!)": {
+      fr: "Top CA / Recouv. Faible (Encours critique: 6.81M DA!)",
+      ar: "أعلى ر.أ / تحصيل ضعيف (الديون القائمة حرجة: 6.81M د.ج!)"
+    },
   "Bon / Vigilance (Encours à apurer)": {
     fr: "Bon / Vigilance (Encours à apurer)",
     ar: "جيد / وجوب المتابعة (الديون بحاجة للتصفية)"
@@ -1886,7 +1886,7 @@ export default function App() {
                           {lang === 'ar' ? <span><strong>86٪ من المبيعات</strong> تمت بواسطة 3 وكلاء فقط (<strong>Mahrez، Mekadim، Zitouni</strong>).</span> : <span><strong>86% du CA</strong> est réalisé par seulement 3 vendeurs (<strong>Mahrez, Mekadim, Zitouni</strong>).</span>}
                         </p>
                         <p className="text-[11px] text-rose-300/90 font-bold">
-                          {lang === 'ar' ? 'Mahrez لديه 6.79 مليون د.ج ديون عالقة (تحصيل 89.20٪)، مما يهدد الخزينة.' : 'MAHREZ cumule 6.79M DA d\'impayés (89.20% recouv.), menaçant gravement la trésorerie.'}
+                          {lang === 'ar' ? 'Mahrez لديه 6.81 مليون د.ج ديون عالقة (تحصيل 89.67٪)، مما يهدد الخزينة.' : 'MAHREZ cumule 6.81M DA d\'impayés (89.67% recouv.), menaçant gravement la trésorerie.'}
                         </p>
                       </div>
 
