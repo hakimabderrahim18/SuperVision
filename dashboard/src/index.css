@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&family=Cairo:wght@300;400;500;600;700;800;900&display=swap');
+
+@theme {
+  /* Override default Tailwind indigo color palette with a corporate Forest Emerald scale */
+  --color-indigo-50: #f0fdf4;
+  --color-indigo-100: #dcfce7;
+  --color-indigo-200: #bbf7d0;
+  --color-indigo-300: #86efac;
+  --color-indigo-400: #4ade80;
+  --color-indigo-500: #10b981;
+  --color-indigo-600: #059669;
+  --color-indigo-700: #047857;
+  --color-indigo-800: #065f46;
+  --color-indigo-900: #064e3b;
+  --color-indigo-950: #022c22;
+  
+  /* Override default Tailwind sky color palette with a beautiful fresh mint scale for perfect accents */
+  --color-sky-50: #e0f2fe;
+  --color-sky-100: #bae6fd;
+  --color-sky-200: #7dd3fc;
+  --color-sky-300: #38bdf8;
+  --color-sky-400: #0ea5e9;
+  --color-sky-500: #0284c7;
+  --color-sky-600: #0369a1;
+  --color-sky-700: #075985;
+  --color-sky-800: #0c4a6e;
+  --color-sky-900: #0a3d5c;
+  --color-sky-950: #082f49;
+}
+
+body {
+  font-family: 'Outfit', 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Force Cairo font globally when layout switches to RTL Arabic mode for crystal-clear Arabic rendering */
+[dir="rtl"], [dir="rtl"] * {
+  font-family: 'Cairo', sans-serif !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+/* Glassmorphism Classes */
+.glass-panel-dark {
+  background: rgba(17, 24, 39, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}

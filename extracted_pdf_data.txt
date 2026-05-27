@@ -1,0 +1,415 @@
+=========================================
+FILE: GUIDE KPIs SILWANE - Mai 2026.pdf
+=========================================
+
+--- PAGE 1 ---
+GUIDE COMPLET: ANALYSE DES PERFORMANCES
+DE VENTES PAR PRE-VENDEUR
+SILWANE - Mai 2026
+RESUME DES RESULTATS
+Metrique Valeur
+Chiffre d'Affaires Total 217,645,185.83 DA
+Quantite Totale 1,200,073 unites
+Nombre de Colis 56,134
+Reste a Payer 5,808,260.10 DA
+Taux de Recouvrement Global 85.58%
+CA Moyen par Colis 3,877.24 DA
+CLASSEMENT DES VENDEURS (COMPLET)
+1. MAHREZ - 62,906,313.55 DA (28.90%)
+Quantite: 331,961 unites
+Colis: 15,987
+CA/Colis: 3,934.84 DA
+Recouvrement: 84.98% (Reste: 839,643.17 DA)
+Verdict: CA correct, vigilance accrue sur le recouvrement
+2. MEKADIM - 62,906,313.55 DA (28.90%)
+Quantite: 331,961 unites
+Colis: 15,987
+CA/Colis: 3,934.84 DA
+Recouvrement: 100.00% (Reste: 0.00 DA)
+Verdict: Modele de reference (zero impaye)
+Page 1/10
+
+--- PAGE 2 ---
+  GUIDE KPIs SILWANE - Mai 2026
+3. MUSTAPHA ZITOUNI - 62,906,313.55 DA (28.90%)
+Quantite: 331,961 unites
+Colis: 15,987
+CA/Colis: 3,934.84 DA
+Recouvrement: 95.60% (Reste: 202,403.98 DA)
+Verdict: Excellent equilibre CA + recouvrement
+4. YOUCEF - 11,791,465.83 DA (5.42%)
+Quantite: 76,709 unites
+Colis: 2,756
+CA/Colis: 4,278.47 DA
+Recouvrement: 75.97% (Reste: 2,914,047.94 DA)
+Verdict: CRITIQUE - Probleme majeur de recouvrement!
+5. FETHI - 3,856,499.40 DA (1.77%)
+Quantite: 25,590 unites
+Colis: 1,761
+CA/Colis: 2,189.95 DA
+Recouvrement: 78.09% (Reste: 868,815.73 DA)
+Verdict: CRITIQUE - Probleme majeur de recouvrement!
+6. ASSEL JUMBO - 3,776,338.24 DA (1.74%)
+Quantite: 34,514 unites
+Colis: 971
+CA/Colis: 3,889.12 DA
+Recouvrement: 94.99% (Reste: 199,005.44 DA)
+Verdict: Performance stable, recouvrement solide
+Page 2/10
+
+--- PAGE 3 ---
+  GUIDE KPIs SILWANE - Mai 2026
+7. MUSTAPHA JUMBO - 2,964,005.61 DA (1.36%)
+Quantite: 22,775 unites
+Colis: 697
+CA/Colis: 4,252.52 DA
+Recouvrement: 96.25% (Reste: 115,469.07 DA)
+Verdict: Performance stable, recouvrement solide
+8. HOUARI - 2,963,639.39 DA (1.36%)
+Quantite: 15,592 unites
+Colis: 984
+CA/Colis: 3,011.83 DA
+Recouvrement: 93.65% (Reste: 195,504.03 DA)
+Verdict: Performance stable, recouvrement solide
+9. ISLEM JUMBO - 2,763,920.30 DA (1.27%)
+Quantite: 25,199 unites
+Colis: 752
+CA/Colis: 3,675.43 DA
+Recouvrement: 93.73% (Reste: 184,600.55 DA)
+Verdict: Performance stable, recouvrement solide
+10. BOURIAH - 810,376.42 DA (0.37%)
+Quantite: 3,811 unites
+Colis: 252
+CA/Colis: 3,215.78 DA
+Recouvrement: 68.37% (Reste: 288,770.19 DA)
+Verdict: CRITIQUE - Probleme majeur de recouvrement!
+ANALYSE COMPARATIVE PAR KPI
+A. CHIFFRE D'AFFAIRES (CA)
+Top 3:
+  1. MAHREZ: 62,906,313.55 DA (28.90%)
+  2. MEKADIM: 62,906,313.55 DA (28.90%)
+  3. MUSTAPHA ZITOUNI: 62,906,313.55 DA (28.90%)
+Ecart Meilleur/Pire: 62,095,937.13 DA (MAHREZ vs BOURIAH)
+Interpretation:
+La concentration du CA est marquee par trois vendeurs (Mahrez, Mekadim, Zitouni) qui representent a eux seuls 86% du CA global,
+en raison de portefeuilles de gros tres importants. Youcef represente le segment intermediaire (5.4%). Les autres representent de
+petits volumes.
+Page 3/10
+
+--- PAGE 4 ---
+  GUIDE KPIs SILWANE - Mai 2026
+B. QUANTITE VENDUE
+Top 3:
+  1. MAHREZ: 331,961 unites (27.66%)
+  2. MEKADIM: 331,961 unites (27.66%)
+  3. MUSTAPHA ZITOUNI: 331,961 unites (27.66%)
+Points cles:
+Zitouni, Mahrez, Mekadim forment le peloton de tete. Youcef s'insere en 4e position avec un volume correct. Bouriah represente de
+faibles quantites de produits basiques.
+C. CA PAR COLIS (Efficacite Commerciale)
+Top 3 (Meilleur mix produit):
+  1. YOUCEF: 4,278.47 DA/colis
+  2. MUSTAPHA JUMBO: 4,252.52 DA/colis
+  3. MAHREZ: 3,934.84 DA/colis
+Pire: FETHI: 2,189.95 DA/colis
+Interpretation:
+Youcef, Mustapha Jumbo et Mahrez/Mekadim/Zitouni vendent avec un CA par colis eleve (superieur a 3,900 DA), traduisant une part
+de produits premium importante. Fethi affiche l'efficacite la plus faible (2,189.95 DA/colis), ce qui indique une vente accrue de
+produits basiques a faible marge.
+Page 4/10
+
+--- PAGE 5 ---
+  GUIDE KPIs SILWANE - Mai 2026
+D. RECOUVREMENT (Sante Financiere)
+Classification:
+EXCELLENT (100% recouvres) : MEKADIM
+BON (95-99.5%) : MUSTAPHA ZITOUNI, MUSTAPHA JUMBO
+MOYEN (90-95%) : ASSEL JUMBO, HOUARI, ISLEM JUMBO
+PROBLEMATIQUE (<90%) : MAHREZ, YOUCEF, FETHI, BOURIAH
+Reste a Payer par Vendeur (Classement) :
+  1. YOUCEF: 2,914,047.94 DA reste a recouvrer
+  2. FETHI: 868,815.73 DA reste a recouvrer
+  3. MAHREZ: 839,643.17 DA reste a recouvrer
+  4. BOURIAH: 288,770.19 DA reste a recouvrer
+  5. MUSTAPHA ZITOUNI: 202,403.98 DA reste a recouvrer
+ANALYSE CROISEE: CA vs RECOUVREMENT
+Vendeur CA Rank Recovery Rank Verdict
+MAHREZ 1 7 Vigilance requise, reste a recouvrer eleve
+MEKADIM 2 1 Parfait, aucun impaye
+MUSTAPHA ZITOUNI 3 3 Excellent equilibre volume/recouvrement
+YOUCEF 4 9 CRITIQUE, impayes tres importants
+FETHI 5 8 CRITIQUE, impayes tres importants
+ASSEL JUMBO 6 4 Tres bon commercial, suivi regulier
+MUSTAPHA JUMBO 7 2 Excellent equilibre volume/recouvrement
+HOUARI 8 6 Tres bon commercial, suivi regulier
+ISLEM JUMBO 9 5 Tres bon commercial, suivi regulier
+BOURIAH 10 10 CRITIQUE, impayes tres importants
+Page 5/10
+
+--- PAGE 6 ---
+  GUIDE KPIs SILWANE - Mai 2026
+PROBLEMES IDENTIFIES SUR LA PERIODE
+PROBLEME #1: YOUCEF - Reste a payer historique tres eleve
+Symptome: 2,914,047.94 DA de reste a payer (75.97% de recouvrement seulement)
+Causes Possibles:
+De grands grossistes de la zone ont negocie des delais de paiement non respectes. Absence de suivi regulier des relances de
+cheques.
+Actions Immediates:
+1. Envoi formel de mises en demeure aux clients debiteurs
+2. Suspension temporaire des encours de credit pour Youcef
+3. Plan d'apurement avec les 3 principaux clients de la zone
+PROBLEME #2: FETHI - Recouvrement insuffisant
+Symptome: 868,815.73 DA en reste (78.09% seulement recouvres)
+Causes Probables:
+Secteur rural avec de petites superettes en manque de liquidites. Conditions de paiement trop souples accordees pour forcer la
+vente.
+Actions:
+1. Fixer un plafond d'impaye strict de 200,000 DA par client pour Fethi
+2. Recuperation des cheques de caution pour les nouveaux encours
+Page 6/10
+
+--- PAGE 7 ---
+  GUIDE KPIs SILWANE - Mai 2026
+PROBLEME #3: BOURIAH - Recouvrement catastrophique (68.37%)
+Symptome: Recouvrement le plus bas (68.37%), 288,770.19 DA d'impayes pour un petit CA
+Causes Probables:
+Vendeur en difficulte de recouvrement sur sa zone de gros. Profil client a haute insolvabilite.
+Actions:
+1. Accompagnement de Bouriah par le directeur commercial sur le terrain
+2. Fermeture definitive des comptes clients en impaye > 45 jours
+MEILLEURES PRATIQUES A DUPLIQUER
+Modele MUSTAPHA ZITOUNI (Recouvrement 95.60%)
+Caracteristiques:
+  * CA enorme de 62,906,313.55 DA HT
+  * Taux de recouvrement tres performant de 95.60%
+  * Gestion saine du credit client sur les volumes de gros
+Comment l'implementer chez d'autres:
+Dupliquer son outil de suivi des echeances clients et generaliser ses regles d'octroi de delais de paiement aux grossistes.
+Page 7/10
+
+--- PAGE 8 ---
+  GUIDE KPIs SILWANE - Mai 2026
+Modele MUSTAPHA JUMBO (Equilibre CA/Recouvrement parfait)
+Caracteristiques:
+  * CA solide de 2,964,005.61 DA HT
+  * Recouvrement excellent de 96.25%
+  * Excellent mix produit et CA/colis eleve (4,252.52 DA)
+METRIQUES DE SUIVI MENSUEL RECOMMANDEES
+Metrique Formule Objectif Frequence
+CA Mensuel Somme des factures Croissance +5% M/M Mensuel
+Quantite Nombre d'unites vendues Cible fixee par zone Mensuel
+Taux Recouvrement (CA - Reste) / CA Objectif >= 95% Mensuel
+CA / Colis CA / Nombre de colis Optimiser le mix Mensuel
+Impayes > 30j Factures impayees > 30j 0 DA strict Hebdomadaire
+Page 8/10
+
+--- PAGE 9 ---
+  GUIDE KPIs SILWANE - Mai 2026
+PLAN D'ACTION PRIORITAIRE
+URGENT (Cette semaine)
+[ ] 1. Audit YOUCEF: detail exhaustif des impayes grossistes
+[ ] 2. Reunion FETHI: discussion recouvremement + blocage credit
+[ ] 3. Feliciter les TOP 3 vendeurs pour leurs performances
+COURT TERME (2 semaines)
+[ ] 4. Limitation automatique des encours de credit client par commercial
+[ ] 5. Generaliser les best practices de Zitouni aux autres prevendeurs
+AXES D'AMELIORATION GLOBAUX
+1. Augmenter le CA / Colis
+Strategie : Vendre des produits a forte marge / premium (Famico, confitures) en complement des produits de volume basiques
+(couscous, semoule).
+Cible : Hausse de +150 DA par colis. Sur un total de 56,134 colis, cela represente un gain de CA direct.
+2. Reduire les Impayes
+Actuel : 5,808,260.10 DA d'impayes (14.42% du CA).
+Cible : Taux de recouvrement superieur a 96.5% maximum.
+Page 9/10
+
+--- PAGE 10 ---
+  GUIDE KPIs SILWANE - Mai 2026
+3. Standardiser les Processus de Recouvrement
+- Application stricte du CRM de recouvrement.
+- Alertes hebdos automatisees sur les restes a payer.
+- Indexation des primes des pre-vendeurs sur leur taux de recouvrement reel et non sur le CA brut.
+CONCLUSION
+Points Positifs : CA global tres solide de 217,645,185.83 DA. Recouvrement global correct a 85.58%. Plus de 1.2 Million d'unites
+distribuees.
+Points d'Attention : Youcef et Fethi affichent des restes a payer eleves qui necessitent des mesures correctives urgentes. Bouriah
+reste en situation de risque a 68% de recouvrement.
+Priorites :
+1. Sauver le recouvrement de Youcef (plan de relance grossistes).
+2. Dupliquer les process de Zitouni.
+3. Optimiser le CA/Colis de Fethi et Islem Jumbo.
+Rapport genere : Mai 2026
+Prochaine revision : Juin 2026
+Page 10/10
+
+=========================================
+FILE: Rapport_Comparatif_Prevendeurs.pdf
+=========================================
+
+--- PAGE 1 ---
+  SILWANE ERP  |  Rapport de Comparaison des Prevendeurs
+COMPARAISON DES PERFORMANCES COMMERCIALES
+Analyse comparative transversale de l'efficacite et de l'activite des prevendeurs
+1. Tableau Synthetique Comparatif
+Rg Prevendeur Chiffre d'Affaires HT Part (%) Factures Panier Moyen HT Clients Un.
+1 Mounir 6,013,270.64 DA 19.9% 333 18,058 DA 113
+2 Mahrez 5,590,253.56 DA 18.5% 288 19,411 DA 109
+3 Zitouni 4,597,188.42 DA 15.2% 377 12,194 DA 129
+4 Assel 3,975,343.68 DA 13.2% 391 10,167 DA 260
+5 Fethi 3,965,170.92 DA 13.1% 323 12,276 DA 122
+6 Houari 3,076,303.48 DA 10.2% 263 11,697 DA 124
+7 Sissani 1,423,659.05 DA 4.7% 198 7,190 DA 110
+8 Bouriah 912,900.97 DA 3.0% 27 33,811 DA 15
+9 Mkhazni 663,367.48 DA 2.2% 73 9,087 DA 64
+2. Analyse Synthetique de l'Efficacite
+- [1er] Mounir et [2e] Mahrez tirent la croissance en valeur, representant ensemble plus de 38% du CA global.
+- [1er] Assel et [2e] Zitouni gerent des tournees tres atomisees avec respectivement 265 et 223 clients uniques
+approvisionnes, se distinguant par une excellente penetration commerciale terrain.
+- Bouriah possede le profil commercial le plus qualitatif avec un panier moyen record de 33 811 DA HT par facture.
+Rapport Commercial Consolide  -  Silwane ERP0044 v1.9  -  Page 1/3
+
+--- PAGE 2 ---
+  SILWANE ERP  |  Rapport de Comparaison des Prevendeurs
+3. Graphiques Comparatifs Transversaux
+Rapport Commercial Consolide  -  Silwane ERP0044 v1.9  -  Page 2/3
+
+--- PAGE 3 ---
+  SILWANE ERP  |  Rapport de Comparaison des Prevendeurs
+4. Produits Phares par Prévendeur
+Prevendeur Designation Produit le Plus Vendu Qte Vendue CA Produit (DA)
+Mounir COUSCOUS MOYEN 01 KG SAFINA 3,150 430,700.00 DA
+Mahrez Famico 250 GR 8,440 1,982,907.20 DA
+Zitouni COUSCOUS MOYEN 01 KG SAFINA 5,450 731,020.00 DA
+Assel Nouilles Poulet 70g 7,840 320,256.00 DA
+Fethi Famico 250 GR 2,280 535,800.00 DA
+Houari Famico 250 GR 3,905 914,545.80 DA
+Sissani FARINE SUPERIEUR 01 KG KRAFT SOSEMIE 1,970 124,610.25 DA
+Bouriah RIZ LONG BLANC SOS 500 G 336 33,868.80 DA
+Mkhazni FARINE SUPERIEUR 01 KG KRAFT SOSEMIE 684 43,317.72 DA
+Rapport Commercial Consolide  -  Silwane ERP0044 v1.9  -  Page 3/3
+
+=========================================
+FILE: Rapport_Comparatif_Regions_Prevendeurs.pdf
+=========================================
+
+--- PAGE 1 ---
+  SILWANE ERP  |  Comparaison Prevendeurs par Region
+COMPARAISON PREVENDEURS PAR REGION
+Analyse matricielle des ventes HT croisees par zone et par commercial
+1. Tableau Croise Regional (CA HT en DA)
+Zone / Secteur Assel Bouria Fethi Houari Mahrez Mkhazn Mounir Sissan Zitoun Total Zone
+Tiaret - - - - - 399k - 1,424k 4,597k 6,419,774 DA
+Hors-prog. (Assel) 3,975k - - - - - - - - 3,975,344 DA
+Hors-prog. (Houari) - - - 3,076k - - - - - 3,076,303 DA
+Frenda - - - - - - 1,877k - - 1,876,733 DA
+Takhmert - - - - - - 1,872k - - 1,872,007 DA
+Thnia - - - - 1,715k - - - - 1,714,572 DA
+Bourdj bounaama - - - - 1,370k - - - - 1,370,002 DA
+Dahmouni - - 1,132k - - - - - - 1,132,486 DA
+Ammari wlad bessam - - - - 1,020k - - - - 1,020,271 DA
+Hors-prog. (Bouriah) - 913k - - - - - - - 912,901 DA
+Hamaida - - 900k - - - - - - 900,304 DA
+Lardjam - - - - 819k - - - - 819,397 DA
+Kermes - - - - - - 711k - - 710,957 DA
+Medrissa - - - - - - 687k - - 687,165 DA
+2. Analyse Clinique de la Zone Partagee (Tiaret)
+La commune de Tiaret est le secteur central concentrant 6,419,774.21 DA HT.
+- Zitouni s'impose en leader absolu avec 4,597,188.42 DA HT (71.6%).
+- Sissani s'etablit comme challenger avec 1,423,659.05 DA HT (22.2%).
+- Mkhazni (mkhazeni) ferme la marche avec 398,926.74 DA HT (6.2%).
+Rapport Regional Consolide  -  Silwane ERP  -  Page 1/2
+
+--- PAGE 2 ---
+  SILWANE ERP  |  Comparaison Prevendeurs par Region
+3. Repartition Graphique par Region
+Rapport Regional Consolide  -  Silwane ERP  -  Page 2/2
+
+=========================================
+FILE: Rapport_Performance_SILWANE_Mai_2026_Consolide.pdf
+=========================================
+
+--- PAGE 1 ---
+RAPPORT DE SUPERVISION KPIs
+SILWANE | Analyse de Performance Commerciale & Recouvrement - Mai 2026
+CHIFFRE D'AFFAIRES
+217,645,185 DA
+RECOUVREMENT
+95.66%
+UNITÉS VENDUES
+1,200,073
+RESTE À PAYER
+9,456,455 DA
+Classement Performance Vendeurs (Mai 2026)
+Rang Vendeur Chiffre d'Affaires Recouvrement Verdict
+01 MAHREZ 62,906,313 DA 89.20% Top CA / Recouv. Faible
+02 MEKADIM 62,906,313 DA 98.80% Bon / Vigilance
+03 MUSTAPHA ZITOUNI 62,906,313 DA 99.50% Très Bon
+04 YOUCEF 11,791,465 DA 94.20% Bon / Vigilance
+05 FETHI 3,856,499 DA 99.10% Stable
+06 ASSEL JUMBO 3,776,338 DA 99.50% Stable
+07 MUSTAPHA JUMBO 2,964,005 DA 91.50% Bon / Vigilance
+08 HOUARI 2,963,639 DA 100.00% Petit Volume
+09 ISLEM JUMBO 2,763,920 DA 100.00% Petit Volume
+10 BOURIAH 810,376 DA 25.50% CATASTROPHIQUE
+Alertes Stratégiques Majeures
+CRITICAL : Risque de concentration de CA & Explosion du Reste à Payer (Voir Page 2)
+Rapport de Supervision SILWANE - Mai 2026 Document Confidentiel - Page 1/2
+
+--- PAGE 2 ---
+RAPPORT DE SUPERVISION KPIs
+SILWANE | Analyse de Performance Commerciale & Recouvrement - Mai 2026
+Détails des Alertes Stratégiques
+CRITICAL : Risque Concentré & Impayés (Cas MAHREZ / MEKADIM / ZITOUNI)
+Les top 3 vendeurs réalisent 86% du CA total (62.9M DA chacun). MAHREZ cumule 6.79M DA d'impayés (89.2% recouv.),
+menaçant gravement la trésorerie.
+VIGILANCE : Cas BOURIAH (Faibles Volumes & Faible Recouvrement)
+BOURIAH affiche un volume critique de 810k DA (contre 1.4M DA en avril) et conserve un recouvrement catastrophique de
+25.50%. Audit exigé.
+Analyse du Mix Produit & Rotation
+[Forte] Nouilles Poulet 70g : Ventes: 127,160 u. | CA: 5,118,709 DA
+[Forte] Cube Poulet : Ventes: 113,650 u. | CA: 63,768,141 DA
+[Forte] DCT 400g JUMBO : Ventes: 111,984 u. | CA: 17,818,428 DA
+[Faible] CAPSULES CAFE RISTRETO : Ventes: 33 u. | CA: 9,180 DA
+[Faible] MAIS 500g : Ventes: 3 u. | CA: 420 DA
+[Faible] PATES COURTES CHORBA 450 GR SOSEMIE : Ventes: 3 u. | CA: 192 DA
+Recommandations Stratégiques (Changements requis)
+1. Gérer l'Exposition aux Tops -- Geler MAHREZ si l'encours dépasse 5M DA. Pousser les Jumbo sellers pour diversifier.
+2. Revoir le Mix Rentabilité -- Promouvoir Cube Poulet (63.7M DA) & Famico (20.2M DA) à forte valeur unitaire.
+3. Structurer le Recouvrement -- Bloquer BOURIAH (recouvrement à 25.50%) et activer des alertes automatiques.
+4. Uniformiser les Exports ERP -- Corriger le décalage de colonnes de l'ERP Silwane pour automatiser les rapports.
+Rapport de Supervision SILWANE - Mai 2026 Document Confidentiel - Page 2/2
+
+=========================================
+FILE: Rapport_Ventes_Par_Zone.pdf
+=========================================
+
+--- PAGE 1 ---
+  SILWANE ERP  |  Rapport des Ventes par Zone Couverte
+VENTILATION ANALYTIQUE PAR ZONE COUVERTE
+Croisement des plannings Programme.xlsx et des Bons de Livraison journaliers
+1. Synthese par Zone Geographique
+Rg Zone Geographique / Secteur Factures (BL) Chiffre d'Affaires HT Part de Marche (%)
+1 Tiaret 605 6,419,774.21 DA 21.25%
+2 Secteur propre a Assel 391 3,975,343.68 DA 13.16%
+3 Secteur propre a Houari 263 3,076,303.48 DA 10.18%
+4 Frenda 59 1,876,733.26 DA 6.21%
+5 Takhmert 61 1,872,006.57 DA 6.20%
+6 Thnia 80 1,714,571.76 DA 5.67%
+7 Bourdj bounaama 64 1,370,002.15 DA 4.53%
+8 Dahmouni 55 1,132,485.93 DA 3.75%
+9 Ammari wlad bessam 27 1,020,270.84 DA 3.38%
+10 Secteur propre a Bouriah 27 912,900.97 DA 3.02%
+11 Hamaida 72 900,304.06 DA 2.98%
+12 Lardjam 71 819,397.48 DA 2.71%
+13 Kermes 50 710,957.31 DA 2.35%
+14 Medrissa 58 687,165.41 DA 2.27%
+15 Khmisti 46 666,011.33 DA 2.20%
+2. Revelations Majeures
+- * Tiaret est de loin le secteur economique numero 1, avec 6.42 Millions DA HT soit 21.25% des ventes totales, co-gere
+par Zitouni, Sissani, et Mkhazni.
+- Frenda et Takhmert (tournees du mardi et lundi de Mounir) realisent des scores excellents avec plus de 1.87 Millions
+DA HT chacune.
+- Les tournees de Thnia (1.71 Millions DA) et Bourdj Bounaama (1.37 Millions DA) gerees par Mahrez sont tres
+rentables.
+Rapport Commercial Consolide  -  Silwane ERP0044 v1.9  -  Page 1/1
+

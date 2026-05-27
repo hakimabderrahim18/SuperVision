@@ -1,0 +1,15 @@
+# Ignore dependencies
+node_modules/
+dashboard/node_modules/
+
+# Ignore compiled local packages
+dist/
+dashboard/dist/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+.gemini/
+.git/
+.env.local
+.env.*.local
