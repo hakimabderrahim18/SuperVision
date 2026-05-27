@@ -1145,6 +1145,15 @@ const DATASET = {
       description: 'Récapitulatif abrégé des ventes consolidées en volumes physiques par zones et localités principales de distribution.',
       type: 'Synthèse Ventes',
       url: '/Rapport_Ventes_Par_Zone.pdf'
+    },
+    {
+      id: 'formules-calculs',
+      name: 'SILWANE_Formules_Calculs_Dashboard.pdf',
+      title: 'Guide des Formules et Ratios de Calcul',
+      size: '8.4 KB',
+      description: 'Documentation technique et mathematique detaillant toutes les equations d\'apurement, de recouvrement et de panier moyen appliquees.',
+      type: 'Formules & Ratios',
+      url: '/SILWANE_Formules_Calculs_Dashboard.pdf'
     }
   ]
 };
