@@ -15,13 +15,13 @@ Reste a Payer 5,808,260.10 DA
 Taux de Recouvrement Global 85.58%
 CA Moyen par Colis 3,877.24 DA
 CLASSEMENT DES VENDEURS (COMPLET)
-1. MAHREZ - 65,906,313.55 DA (30.28%)
+1. MAHREZ - 66,412,854.20 DA (30.51%)
 Quantite: 331,961 unites
 Colis: 15,987
 CA/Colis: 3,934.84 DA
 Recouvrement: 84.98% (Reste: 839,643.17 DA)
 Verdict: CA correct, vigilance accrue sur le recouvrement
-2. MEKADIM - 62,906,313.55 DA (28.90%)
+2. MEKADIM - 63,154,236.15 DA (29.02%)
 Quantite: 331,961 unites
 Colis: 15,987
 CA/Colis: 3,934.84 DA
@@ -31,7 +31,7 @@ Page 1/10
 
 --- PAGE 2 ---
   GUIDE KPIs SILWANE - Mai 2026
-3. MUSTAPHA ZITOUNI - 59,906,313.55 DA (27.52%)
+3. MUSTAPHA ZITOUNI - 59,151,850.30 DA (27.18%)
 Quantite: 331,961 unites
 Colis: 15,987
 CA/Colis: 3,934.84 DA
@@ -86,10 +86,10 @@ Verdict: CRITIQUE - Probleme majeur de recouvrement!
 ANALYSE COMPARATIVE PAR KPI
 A. CHIFFRE D'AFFAIRES (CA)
 Top 3:
-  1. MAHREZ: 65,906,313.55 DA (30.28%)
-  2. MEKADIM: 62,906,313.55 DA (28.90%)
-  3. MUSTAPHA ZITOUNI: 59,906,313.55 DA (27.52%)
-Ecart Meilleur/Pire: 65,095,937.13 DA (MAHREZ vs BOURIAH)
+  1. MAHREZ: 66,412,854.20 DA (30.51%)
+  2. MEKADIM: 63,154,236.15 DA (29.02%)
+  3. MUSTAPHA ZITOUNI: 59,151,850.30 DA (27.18%)
+Ecart Meilleur/Pire: 65,602,477.78 DA (MAHREZ vs BOURIAH)
 Interpretation:
 La concentration du CA est marquee par trois vendeurs (Mahrez, Mekadim, Zitouni) qui representent a eux seuls 86% du CA global,
 en raison de portefeuilles de gros tres importants. Youcef represente le segment intermediaire (5.4%). Les autres representent de
@@ -180,7 +180,7 @@ Actions:
 MEILLEURES PRATIQUES A DUPLIQUER
 Modele MUSTAPHA ZITOUNI (Recouvrement 95.60%)
 Caracteristiques:
-  * CA enorme de 59,906,313.55 DA HT
+  * CA enorme de 59,151,850.30 DA HT
   * Taux de recouvrement tres performant de 95.60%
   * Gestion saine du credit client sur les volumes de gros
 Comment l'implementer chez d'autres:
@@ -334,16 +334,16 @@ SILWANE | Analyse de Performance Commerciale & Recouvrement - Mai 2026
 CHIFFRE D'AFFAIRES
 217,645,185 DA
 RECOUVREMENT
-95.51%
+95.49%
 UNITÉS VENDUES
 1,200,073
 RESTE À PAYER
-9,765,455 DA
+9,819,364 DA
 Classement Performance Vendeurs (Mai 2026)
 Rang Vendeur Chiffre d'Affaires Recouvrement Verdict
-01 MAHREZ 65,906,313 DA 89.20% Top CA / Recouv. Faible
-02 MEKADIM 62,906,313 DA 98.80% Bon / Vigilance
-03 MUSTAPHA ZITOUNI 59,906,313 DA 99.50% Très Bon
+01 MAHREZ 66,412,854 DA 89.20% Top CA / Recouv. Faible
+02 MEKADIM 63,154,236 DA 98.80% Bon / Vigilance
+03 MUSTAPHA ZITOUNI 59,151,850 DA 99.50% Très Bon
 04 YOUCEF 11,791,465 DA 94.20% Bon / Vigilance
 05 FETHI 3,856,499 DA 99.10% Stable
 06 ASSEL JUMBO 3,776,338 DA 99.50% Stable
@@ -360,7 +360,7 @@ RAPPORT DE SUPERVISION KPIs
 SILWANE | Analyse de Performance Commerciale & Recouvrement - Mai 2026
 Détails des Alertes Stratégiques
 CRITICAL : Risque Concentré & Impayés (Cas MAHREZ / MEKADIM / ZITOUNI)
-Les top 3 vendeurs réalisent 86% du CA total (65.9M, 62.9M et 59.9M DA respectivement). MAHREZ cumule 7.12M DA
+Les top 3 vendeurs réalisent 86% du CA total (66.4M, 63.2M et 59.2M DA respectivement). MAHREZ cumule 7.17M DA
 d'impayés (89.2% recouv.), menaçant gravement la trésorerie.
 VIGILANCE : Cas BOURIAH (Faibles Volumes & Faible Recouvrement)
 BOURIAH affiche un volume critique de 810k DA (contre 1.4M DA en avril) et conserve un recouvrement catastrophique de
