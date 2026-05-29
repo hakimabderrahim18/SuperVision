@@ -1715,7 +1715,7 @@ export default function App() {
           SUB-NAV TABS & SEGMENT SELECTOR
           ========================================== */}
       <div className="max-w-[1550px] w-full mx-auto px-4 md:px-6 pt-6 flex flex-col md:flex-row md:items-center justify-between gap-4">
-        <div className="inline-flex p-1 rounded-xl bg-slate-200/80 dark:bg-slate-900/60 border border-slate-300/40 dark:border-slate-800">
+        <div className="flex overflow-x-auto whitespace-nowrap max-w-full p-1 rounded-xl bg-slate-200/80 dark:bg-slate-900/60 border border-slate-300/40 dark:border-slate-800 no-scrollbar">
           {[
             { id: 'global', label: t('tab_global'), icon: Layers },
             { id: 'prevendeurs', label: t('tab_prevendeurs'), icon: Users },
@@ -1731,7 +1731,7 @@ export default function App() {
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`flex items-center gap-2 px-4 py-2 text-sm font-semibold rounded-lg transition-all duration-200 ${
+              className={`flex items-center gap-2 px-4 py-2 text-sm font-semibold rounded-lg transition-all duration-200 shrink-0 cursor-pointer ${
                 activeTab === tab.id 
                   ? 'bg-indigo-600 text-white shadow-md' 
                   : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-300/30 dark:hover:bg-slate-800/50'
@@ -2825,8 +2825,8 @@ export default function App() {
               <div className="overflow-x-auto">
                 <table className="w-full text-left border-collapse min-w-[1000px]">
                   <thead>
-                    <tr className="border-b border-slate-150 dark:border-slate-880">
-                      <th className={`py-4 px-4 font-bold text-xs uppercase tracking-wider text-slate-500 dark:text-slate-450 ${alignStart}`}>
+                    <tr className="border-b border-slate-150 dark:border-slate-800">
+                      <th className={`sticky left-0 bg-white dark:bg-slate-900 z-20 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.1)] border-r border-slate-200 dark:border-slate-800 py-4 px-4 font-bold text-xs uppercase tracking-wider text-slate-500 dark:text-slate-450 ${alignStart}`}>
                         {t('zone_header')}
                       </th>
                       {MATRIX_AGENTS.map(agent => (
@@ -2843,8 +2843,8 @@ export default function App() {
                     {REGIONAL_MATRIX.map((row, rIdx) => {
                       const zoneLabel = lang === 'ar' ? row.zone_ar : row.zone;
                       return (
-                        <tr key={rIdx} className="border-b border-slate-100 dark:border-slate-850 hover:bg-slate-50/50 dark:hover:bg-slate-850/30 transition-colors">
-                          <td className={`py-3 px-4 font-bold text-sm text-slate-800 dark:text-slate-200 ${alignStart}`}>
+                        <tr key={rIdx} className="group border-b border-slate-100 dark:border-slate-850 hover:bg-slate-50/50 dark:hover:bg-slate-850/30 transition-colors">
+                          <td className={`sticky left-0 bg-white dark:bg-slate-900 group-hover:bg-slate-50 dark:group-hover:bg-slate-800/40 z-10 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.1)] border-r border-slate-200 dark:border-slate-800 py-3 px-4 font-bold text-sm text-slate-800 dark:text-slate-200 transition-colors ${alignStart}`}>
                             {zoneLabel}
                           </td>
                           {MATRIX_AGENTS.map(agent => {
