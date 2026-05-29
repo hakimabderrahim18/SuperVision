@@ -1291,8 +1291,26 @@ const generateProductBreakdown = (totalSales) => {
 
 const CHART_COLORS = ['#059669', '#34d399', '#F59E0B', '#EF4444', '#EC4899', '#8B5CF6', '#0284c7', '#0ea5e9'];
 
+const MATRIX_AGENTS = ["Assel", "Bouriah", "Fethi", "Houari", "Mahrez", "Mkhazni", "Mounir", "Sissani", "Zitouni"];
 
-// ==========================================
+const REGIONAL_MATRIX = [
+  { zone: "Tiaret", zone_ar: "تيارت", sales: { Zitouni: 4597188.42, Sissani: 1423659.05, Mkhazni: 398926.74 }, total: 6419774.21 },
+  { zone: "Secteur Assel", zone_ar: "قطاع عسل", sales: { Assel: 3975343.68 }, total: 3975343.68 },
+  { zone: "Secteur Houari", zone_ar: "قطاع هواري", sales: { Houari: 3076303.48 }, total: 3076303.48 },
+  { zone: "Frenda", zone_ar: "فرندة", sales: { Mounir: 1876733.26 }, total: 1876733.26 },
+  { zone: "Takhmert", zone_ar: "تخمرت", sales: { Mounir: 1872006.57 }, total: 1872006.57 },
+  { zone: "Thnia", zone_ar: "ثنية", sales: { Mahrez: 1714571.76 }, total: 1714571.76 },
+  { zone: "Bourdj Bounaama", zone_ar: "برج بونعامة", sales: { Mahrez: 1370002.15 }, total: 1370002.15 },
+  { zone: "Dahmouni", zone_ar: "دحموني", sales: { Fethi: 1132485.93 }, total: 1132485.93 },
+  { zone: "Ammari Wlad Bessam", zone_ar: "عماري أولاد بسام", sales: { Mahrez: 1020270.84 }, total: 1020270.84 },
+  { zone: "Secteur Bouriah", zone_ar: "قطاع بورياح", sales: { Bouriah: 912900.97 }, total: 912900.97 },
+  { zone: "Hamaida", zone_ar: "حمايدة", sales: { Fethi: 900304.06 }, total: 900304.06 },
+  { zone: "Lardjam", zone_ar: "لرجام", sales: { Mahrez: 819397.48 }, total: 819397.48 },
+  { zone: "Kermes", zone_ar: "كرمز", sales: { Mounir: 710957.31 }, total: 710957.31 },
+  { zone: "Medrissa", zone_ar: "مدريسة", sales: { Mounir: 687165.41 }, total: 687165.41 }
+];
+
+// ==========================================================
 // TRANSLATION ENGINE & DICTIONARY
 // ==========================================
 const TRANSLATIONS = {
@@ -1307,6 +1325,18 @@ const TRANSLATIONS = {
   tab_prevendeurs: { fr: "Profils Commerciaux", ar: "تفاصيل أداء الوكلاء" },
   tab_explorer: { fr: "Catalogue & Clients", ar: "دليل المنتجات والزبائن" },
   tab_documents: { fr: "Rapports Officiels PDF", ar: "مجلد وثائق الـ PDF" },
+  tab_matrix: { fr: "Matrice Régionale", ar: "جدول مقارنة المناطق" },
+  matrix_title: { fr: "Matrice Comparative des Ventes par Zone", ar: "مصفوفة مقارنة المبيعات حسب المناطق" },
+  matrix_subtitle: { fr: "Analyse croisée de la répartition géographique du CA HT (en DA) par prévendeur", ar: "تحليل متقاطع للتوزيع الجغرافي لرقم الأعمال الصافي (د.ج) لكل وكيل تجاري" },
+  zone_header: { fr: "Zone / Secteur", ar: "المنطقة / القطاع" },
+  total_zone_label: { fr: "Total Zone", ar: "إجمالي المنطقة" },
+  market_share_view: { fr: "Part de Marché (%)", ar: "حصة السوق (%)" },
+  currency_view: { fr: "Valeur en DA", ar: "القيمة بالد.ج" },
+  matrix_insights: { fr: "Révélations & Insights Régionaux", ar: "التحليلات والرؤى الإقليمية" },
+  matrix_insight_1: { fr: "Tiaret s'impose comme le secteur économique numéro 1 (6.42M DA HT soit 21.25% des ventes totales), co-géré par Zitouni (71.6% leader absolu), Sissani (22.2%) et Mkhazni (6.2%).", ar: "تيارت تفرض نفسها كأول قطاع اقتصادي (6.42 مليون د.ج خ.ر أو 21.25٪ من إجمالي المبيعات)، وتدار بشكل مشترك من قبل زيتوني (71.6٪ رائد مطلق)، سيساني (22.2٪) ومخزني (6.2٪)." },
+  matrix_insight_2: { fr: "Frenda et Takhmert (tournées de Mounir) réalisent des scores excellents avec plus de 1.87 Millions DA HT chacune.", ar: "فرندة وتخمرت (جولات منير) تحققان نتائج ممتازة بأكثر من 1.87 مليون د.ج خ.ر لكل منهما." },
+  matrix_insight_3: { fr: "Les tournées de Thnia (1.71 Millions DA) et Bourdj Bounaama (1.37 Millions DA) gérées par Mahrez sont extrêmement rentables.", ar: "جولات ثنية (1.71 مليون د.ج) وبرج بونعامة (1.37 مليون د.ج) التي يديرها محرز مربحة للغاية." },
+  matrix_insight_4: { fr: "Assel (3.98M DA) et Houari (3.08M DA) gèrent des secteurs géographiques totalement isolés et exclusifs sans aucun chevauchement, garantissant une couverture territoriale saine.", ar: "عسل (3.98 مليون د.ج) وهواري (3.08 مليون د.ج) يديران قطاعات جغرافية معزولة وحصرية تمامًا دون أي تداخل، مما يضمن تغطية إقليمية صحية." },
   agent_label: { fr: "Agent Audité :", ar: "الوكيل التجاري :" },
   data_display_for: { fr: "Période Analysée pour :", ar: "عرض البيانات الخاصة بـ :" },
   active_badge: { fr: "Consolidé", ar: "مدقق وموثق" },
@@ -1483,6 +1513,7 @@ export default function App() {
   const alignEnd = lang === 'ar' ? 'text-left' : 'text-right';
   const [campaignMode, setCampaignMode] = useState('global_erp'); // 'global_erp' or 'supervision_erp'
   const [selectedPrevName, setSelectedPrevName] = useState('Mahrez');
+  const [matrixView, setMatrixView] = useState('value'); // 'value' or 'percentage'
   const [clientSearch, setClientSearch] = useState('');
   const [productSearch, setProductSearch] = useState('');
   const [darkMode, setDarkMode] = useState(false);
@@ -1543,7 +1574,7 @@ export default function App() {
 
   // Reset active tab to global if switching to supervision campaign and on restricted tabs
   useEffect(() => {
-    if (campaignMode === 'supervision_erp' && (activeTab === 'prevendeurs' || activeTab === 'explorer')) {
+    if (campaignMode === 'supervision_erp' && (activeTab === 'prevendeurs' || activeTab === 'explorer' || activeTab === 'matrix')) {
       setActiveTab('global');
     }
   }, [campaignMode, activeTab]);
@@ -1688,6 +1719,7 @@ export default function App() {
           {[
             { id: 'global', label: t('tab_global'), icon: Layers },
             { id: 'prevendeurs', label: t('tab_prevendeurs'), icon: Users },
+            { id: 'matrix', label: t('tab_matrix'), icon: MapPin },
             { id: 'explorer', label: t('tab_explorer'), icon: Search },
             { id: 'documents', label: t('tab_documents'), icon: FileText }
           ].filter(tab => {
@@ -2737,6 +2769,189 @@ export default function App() {
                       )}
                     </tbody>
                   </table>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        )}
+
+        {/* ==========================================
+            TAB: REGIONAL MATRIX
+            ========================================== */}
+        {activeTab === 'matrix' && (
+          <div className="space-y-6 animate-fadeIn min-w-0">
+            
+            {/* Header section with toggle */}
+            <div className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
+              <div className="space-y-1">
+                <div className="flex items-center gap-2">
+                  <MapPin className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />
+                  <h3 className="text-lg font-bold text-slate-900 dark:text-white">{t('matrix_title')}</h3>
+                </div>
+                <p className="text-xs text-slate-500 dark:text-slate-400">{t('matrix_subtitle')}</p>
+              </div>
+              
+              {/* Toggle switch for display values */}
+              <div className="flex p-0.5 rounded-lg bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/50 self-start md:self-auto">
+                <button
+                  onClick={() => setMatrixView('value')}
+                  className={`px-3 py-1.5 text-xs font-bold rounded-md transition-all flex items-center gap-1.5 cursor-pointer ${
+                    matrixView === 'value'
+                      ? 'bg-indigo-600 text-white shadow-sm'
+                      : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+                  }`}
+                >
+                  <DollarSign className="w-3.5 h-3.5" />
+                  <span>{t('currency_view')}</span>
+                </button>
+                <button
+                  onClick={() => setMatrixView('percentage')}
+                  className={`px-3 py-1.5 text-xs font-bold rounded-md transition-all flex items-center gap-1.5 cursor-pointer ${
+                    matrixView === 'percentage'
+                      ? 'bg-indigo-600 text-white shadow-sm'
+                      : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+                  }`}
+                >
+                  <Percent className="w-3.5 h-3.5" />
+                  <span>{t('market_share_view')}</span>
+                </button>
+              </div>
+            </div>
+
+            {/* Main Interactive Table Card */}
+            <div className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm overflow-hidden min-w-0">
+              <div className="overflow-x-auto">
+                <table className="w-full text-left border-collapse min-w-[1000px]">
+                  <thead>
+                    <tr className="border-b border-slate-150 dark:border-slate-880">
+                      <th className={`py-4 px-4 font-bold text-xs uppercase tracking-wider text-slate-500 dark:text-slate-450 ${alignStart}`}>
+                        {t('zone_header')}
+                      </th>
+                      {MATRIX_AGENTS.map(agent => (
+                        <th key={agent} className={`py-4 px-3 font-bold text-xs uppercase tracking-wider text-slate-500 dark:text-slate-450 ${alignEnd}`}>
+                          {agent}
+                        </th>
+                      ))}
+                      <th className={`py-4 px-4 font-bold text-xs uppercase tracking-wider text-indigo-600 dark:text-indigo-400 bg-indigo-50/30 dark:bg-indigo-950/10 ${alignEnd}`}>
+                        {t('total_zone_label')}
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {REGIONAL_MATRIX.map((row, rIdx) => {
+                      const zoneLabel = lang === 'ar' ? row.zone_ar : row.zone;
+                      return (
+                        <tr key={rIdx} className="border-b border-slate-100 dark:border-slate-850 hover:bg-slate-50/50 dark:hover:bg-slate-850/30 transition-colors">
+                          <td className={`py-3 px-4 font-bold text-sm text-slate-800 dark:text-slate-200 ${alignStart}`}>
+                            {zoneLabel}
+                          </td>
+                          {MATRIX_AGENTS.map(agent => {
+                            const val = row.sales[agent] || 0;
+                            const share = val > 0 ? (val / row.total) * 100 : 0;
+                            
+                            // Check leadership highlights (highest non-zero value in row)
+                            const maxRowValue = Math.max(...Object.values(row.sales));
+                            const isLeader = val > 0 && val === maxRowValue;
+                            
+                            let cellContent = '-';
+                            if (val > 0) {
+                              if (matrixView === 'value') {
+                                cellContent = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0 }).format(val) + ' DA';
+                              } else {
+                                cellContent = share.toFixed(1) + '%';
+                              }
+                            }
+                            
+                            return (
+                              <td 
+                                key={agent} 
+                                className={`py-3 px-3 text-xs ${alignEnd} transition-all duration-150 ${
+                                  val > 0 
+                                    ? isLeader 
+                                      ? 'font-bold text-emerald-600 dark:text-emerald-455' 
+                                      : 'font-semibold text-slate-700 dark:text-slate-300'
+                                    : 'text-slate-300 dark:text-slate-700 font-medium'
+                                }`}
+                              >
+                                {val > 0 && isLeader ? (
+                                  <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-emerald-100/80 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-400 border border-emerald-200/40 dark:border-emerald-900/20 font-bold shadow-sm">
+                                    {cellContent}
+                                  </span>
+                                ) : (
+                                  <span>{cellContent}</span>
+                                )}
+                              </td>
+                            );
+                          })}
+                          <td className={`py-3 px-4 font-bold text-sm text-indigo-600 dark:text-indigo-400 bg-indigo-50/20 dark:bg-indigo-950/5 ${alignEnd}`}>
+                            {formatDA(row.total)}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            {/* Insights panel */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 min-w-0">
+              
+              <div className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-4">
+                <div className="flex items-center gap-2 pb-3 border-b border-slate-100 dark:border-slate-800">
+                  <Crown className="w-5 h-5 text-amber-500" />
+                  <h4 className="font-bold text-slate-900 dark:text-white">{t('matrix_insights')}</h4>
+                </div>
+                
+                <div className="space-y-3.5">
+                  <div className="flex gap-3 items-start">
+                    <span className="p-1.5 rounded-lg bg-indigo-50 dark:bg-indigo-950/40 text-indigo-600 dark:text-indigo-400 mt-0.5">
+                      <MapPin className="w-4 h-4" />
+                    </span>
+                    <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-semibold">
+                      {t('matrix_insight_1')}
+                    </p>
+                  </div>
+                  
+                  <div className="flex gap-3 items-start">
+                    <span className="p-1.5 rounded-lg bg-indigo-50 dark:bg-indigo-950/40 text-indigo-600 dark:text-indigo-400 mt-0.5">
+                      <Activity className="w-4 h-4" />
+                    </span>
+                    <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-semibold">
+                      {t('matrix_insight_2')}
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm space-y-4">
+                <div className="flex items-center gap-2 pb-3 border-b border-slate-100 dark:border-slate-800">
+                  <Award className="w-5 h-5 text-indigo-500" />
+                  <h4 className="font-bold text-slate-900 dark:text-white">
+                    {lang === 'ar' ? 'التكامل الميداني الفعال' : 'Intégration & Exclusivité Territoriale'}
+                  </h4>
+                </div>
+                
+                <div className="space-y-3.5">
+                  <div className="flex gap-3 items-start">
+                    <span className="p-1.5 rounded-lg bg-indigo-50 dark:bg-indigo-950/40 text-indigo-600 dark:text-indigo-400 mt-0.5">
+                      <TrendingUp className="w-4 h-4" />
+                    </span>
+                    <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-semibold">
+                      {t('matrix_insight_3')}
+                    </p>
+                  </div>
+                  
+                  <div className="flex gap-3 items-start">
+                    <span className="p-1.5 rounded-lg bg-indigo-50 dark:bg-indigo-950/40 text-indigo-600 dark:text-indigo-400 mt-0.5">
+                      <ShieldCheck className="w-4 h-4" />
+                    </span>
+                    <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-semibold">
+                      {t('matrix_insight_4')}
+                    </p>
+                  </div>
                 </div>
               </div>
 
