@@ -1782,74 +1782,74 @@ export default function App() {
             </div>
 
             {/* Executive KPIs Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-5">
               
               {/* Consolidated Revenue */}
-              <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-200 dark:border-slate-800/80 hover:shadow-md transition-shadow relative overflow-hidden group">
+              <div className="p-3.5 sm:p-5 rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-200 dark:border-slate-800/80 hover:shadow-md transition-shadow relative overflow-hidden group">
                 <div className={`absolute top-0 w-2 h-full bg-indigo-600 ${lang === 'ar' ? 'right-0' : 'left-0'}`}></div>
-                <div className="flex items-center justify-between text-slate-500 dark:text-slate-400 mb-3">
-                  <span className="text-xs font-semibold tracking-wider uppercase">{t('ca_erp_label')}</span>
-                  <div className="p-2 rounded-lg bg-indigo-50 dark:bg-indigo-900/20 text-indigo-600 dark:text-indigo-400 group-hover:scale-110 transition-transform">
-                    <TrendingUp className="w-4 h-4" />
+                <div className="flex items-center justify-between text-slate-500 dark:text-slate-400 mb-2 sm:mb-3">
+                  <span className="text-[10px] sm:text-xs font-semibold tracking-wider uppercase">{t('ca_erp_label')}</span>
+                  <div className="p-1.5 sm:p-2 rounded-lg bg-indigo-50 dark:bg-indigo-900/20 text-indigo-600 dark:text-indigo-400 group-hover:scale-110 transition-transform">
+                    <TrendingUp className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                   </div>
                 </div>
-                <div className="text-xl md:text-2xl font-extrabold text-slate-900 dark:text-white leading-none mb-2">
+                <div className="text-xs min-[350px]:text-sm min-[390px]:text-base sm:text-2xl font-extrabold text-slate-900 dark:text-white leading-none mb-2">
                   {formatDA(campaignData.metrics.consolidatedRevenue)}
                 </div>
-                <div className="text-xs text-slate-400 dark:text-slate-500 flex items-center gap-1">
-                  <Sparkles className="w-3.5 h-3.5 text-amber-500" />
+                <div className="text-[9px] sm:text-xs text-slate-400 dark:text-slate-500 flex items-center gap-1">
+                  <Sparkles className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-amber-500" />
                   <span>Consolidé global sur la période</span>
                 </div>
               </div>
 
               {/* Pre-sales Campaign Revenue */}
-              <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-200 dark:border-slate-800/80 hover:shadow-md transition-shadow relative overflow-hidden group">
+              <div className="p-3.5 sm:p-5 rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-200 dark:border-slate-800/80 hover:shadow-md transition-shadow relative overflow-hidden group">
                 <div className={`absolute top-0 w-2 h-full bg-blue-500 ${lang === 'ar' ? 'right-0' : 'left-0'}`}></div>
-                <div className="flex items-center justify-between text-slate-500 dark:text-slate-400 mb-3">
-                  <span className="text-xs font-semibold tracking-wider uppercase">{t('ca_campaign_label')}</span>
-                  <div className="p-2 rounded-lg bg-blue-50 dark:bg-blue-900/20 text-blue-500 dark:text-blue-400 group-hover:scale-110 transition-transform">
-                    <Layers className="w-4 h-4" />
+                <div className="flex items-center justify-between text-slate-500 dark:text-slate-400 mb-2 sm:mb-3">
+                  <span className="text-[10px] sm:text-xs font-semibold tracking-wider uppercase">{t('ca_campaign_label')}</span>
+                  <div className="p-1.5 sm:p-2 rounded-lg bg-blue-50 dark:bg-blue-900/20 text-blue-500 dark:text-blue-400 group-hover:scale-110 transition-transform">
+                    <Layers className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                   </div>
                 </div>
-                <div className="text-xl md:text-2xl font-extrabold text-slate-900 dark:text-white leading-none mb-1">
+                <div className="text-xs min-[350px]:text-sm min-[390px]:text-base sm:text-2xl font-extrabold text-slate-900 dark:text-white leading-none mb-1">
                   {formatDA(campaignData.metrics.preSalesRevenue)}
                 </div>
-                <div className="text-xs text-slate-500 dark:text-slate-400">
+                <div className="text-[9px] sm:text-xs text-slate-500 dark:text-slate-400">
                   TTC : <span className="font-semibold text-blue-600 dark:text-blue-400">{formatDA(campaignData.metrics.preSalesRevenueTTC)}</span>
                 </div>
               </div>
 
               {/* Outstanding Receivables */}
-              <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-200 dark:border-slate-800/80 hover:shadow-md transition-shadow relative overflow-hidden group">
+              <div className="p-3.5 sm:p-5 rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-200 dark:border-slate-800/80 hover:shadow-md transition-shadow relative overflow-hidden group">
                 <div className={`absolute top-0 w-2 h-full bg-rose-500 ${lang === 'ar' ? 'right-0' : 'left-0'}`}></div>
-                <div className="flex items-center justify-between text-slate-500 dark:text-slate-400 mb-3">
-                  <span className="text-xs font-semibold tracking-wider uppercase">{t('outstanding_receivables')}</span>
-                  <div className="p-2 rounded-lg bg-rose-50 dark:bg-rose-900/20 text-rose-500 dark:text-rose-400 group-hover:scale-110 transition-transform">
-                    <CreditCard className="w-4 h-4" />
+                <div className="flex items-center justify-between text-slate-500 dark:text-slate-400 mb-2 sm:mb-3">
+                  <span className="text-[10px] sm:text-xs font-semibold tracking-wider uppercase">{t('outstanding_receivables')}</span>
+                  <div className="p-1.5 sm:p-2 rounded-lg bg-rose-50 dark:bg-rose-900/20 text-rose-500 dark:text-rose-400 group-hover:scale-110 transition-transform">
+                    <CreditCard className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                   </div>
                 </div>
-                <div className="text-xl md:text-2xl font-extrabold text-slate-900 dark:text-white leading-none mb-2">
+                <div className="text-xs min-[350px]:text-sm min-[390px]:text-base sm:text-2xl font-extrabold text-slate-900 dark:text-white leading-none mb-2">
                   {formatDA(campaignData.metrics.outstandingReceivables)}
                 </div>
-                <div className="text-xs text-rose-600 dark:text-rose-400 font-semibold flex items-center gap-1">
-                  <AlertTriangle className="w-3.5 h-3.5" />
+                <div className="text-[9px] sm:text-xs text-rose-600 dark:text-rose-400 font-semibold flex items-center gap-1">
+                  <AlertTriangle className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
                   <span>Nécessite recouvrement actif</span>
                 </div>
               </div>
 
               {/* Recovery Rate & Points */}
-              <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-200 dark:border-slate-800/80 hover:shadow-md transition-shadow relative overflow-hidden group">
+              <div className="p-3.5 sm:p-5 rounded-2xl bg-white dark:bg-slate-900 shadow-sm border border-slate-200 dark:border-slate-800/80 hover:shadow-md transition-shadow relative overflow-hidden group">
                 <div className={`absolute top-0 w-2 h-full bg-emerald-500 ${lang === 'ar' ? 'right-0' : 'left-0'}`}></div>
-                <div className="flex items-center justify-between text-slate-500 dark:text-slate-400 mb-3">
-                  <span className="text-xs font-semibold tracking-wider uppercase">{t('recovery_rate_label')}</span>
-                  <div className="p-2 rounded-lg bg-emerald-50 dark:bg-emerald-900/20 text-emerald-500 dark:text-emerald-400 group-hover:scale-110 transition-transform">
-                    <Percent className="w-4 h-4" />
+                <div className="flex items-center justify-between text-slate-500 dark:text-slate-400 mb-2 sm:mb-3">
+                  <span className="text-[10px] sm:text-xs font-semibold tracking-wider uppercase">{t('recovery_rate_label')}</span>
+                  <div className="p-1.5 sm:p-2 rounded-lg bg-emerald-50 dark:bg-emerald-900/20 text-emerald-500 dark:text-emerald-400 group-hover:scale-110 transition-transform">
+                    <Percent className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                   </div>
                 </div>
-                <div className="text-xl md:text-2xl font-extrabold text-slate-900 dark:text-white leading-none mb-1">
+                <div className="text-xs min-[350px]:text-sm min-[390px]:text-base sm:text-2xl font-extrabold text-slate-900 dark:text-white leading-none mb-1">
                   {campaignData.metrics.recoveryRate}%
                 </div>
-                <div className="text-xs text-slate-500 dark:text-slate-400">
+                <div className="text-[9px] sm:text-xs text-slate-500 dark:text-slate-400">
                   {t('active_pdv')} <span className="font-semibold text-emerald-600 dark:text-emerald-400">{formatQty(campaignData.metrics.activePoints)} pdv</span>
                 </div>
               </div>
@@ -2430,31 +2430,31 @@ export default function App() {
           <div className="space-y-6 min-w-0">
             
             {/* Profiler Card */}
-            <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm relative overflow-hidden">
+            <div className="p-4 sm:p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm relative overflow-hidden">
               {/* Conditional Alert visual border glow */}
               {selectedPrev.recovery_rate < 90 && (
                 <div className="absolute inset-0 border-2 border-rose-500/30 rounded-2xl pointer-events-none"></div>
               )}
               
-              <div className="flex flex-col md:flex-row items-center gap-6">
+              <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
                 {/* Photo/Avatar Block */}
-                <div className="relative">
-                  <div className="w-20 h-20 rounded-full bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 p-0.5 shadow-md flex items-center justify-center text-white text-3xl font-extrabold">
+                <div className="flex sm:flex-col items-center gap-4 sm:gap-2 self-start sm:self-auto w-full sm:w-auto relative">
+                  <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 p-0.5 shadow-md flex items-center justify-center text-white text-2xl sm:text-3xl font-extrabold shrink-0">
                     {selectedPrev.name[0]}
                   </div>
-                  <span className="absolute bottom-0 right-0 w-6 h-6 rounded-full border bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 text-xs font-bold text-slate-800 dark:text-white flex items-center justify-center">
-                    {selectedPrev.rank}
+                  <span className="sm:absolute sm:bottom-0 sm:right-0 px-2.5 py-0.5 rounded-full bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-xs font-bold text-slate-800 dark:text-white flex items-center justify-center shadow-sm">
+                    #{selectedPrev.rank}
                   </span>
                 </div>
 
-                <div className="flex-1 text-center md:text-left space-y-1">
-                  <div className="flex flex-col md:flex-row md:items-center gap-2 justify-center md:justify-start">
-                    <h2 className="text-xl font-bold text-slate-900 dark:text-white">{translateName(selectedPrev.name, lang)}</h2>
-                    <span className="self-center px-2 py-0.5 text-[10px] font-bold rounded-full bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400">
+                <div className="flex-1 text-left space-y-1.5 w-full">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <h2 className="text-lg sm:text-xl font-bold text-slate-900 dark:text-white">{translateName(selectedPrev.name, lang)}</h2>
+                    <span className="px-2 py-0.5 text-[9px] font-bold rounded-full bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400">
                       {lang === 'ar' ? `الرتبة ${selectedPrev.rank} في الأداء` : `Rang ${selectedPrev.rank} en Performance`}
                     </span>
                     {selectedPrev.recovery_rate < 90 && (
-                      <span className="self-center px-2 py-0.5 text-[10px] font-bold rounded-full bg-rose-100 dark:bg-rose-950/40 text-rose-700 dark:text-rose-400 border border-rose-200 dark:border-rose-900/20">
+                      <span className="px-2 py-0.5 text-[9px] font-bold rounded-full bg-rose-100 dark:bg-rose-950/40 text-rose-700 dark:text-rose-400 border border-rose-200 dark:border-rose-900/20">
                         {lang === 'ar' ? 'حد الخطر المالي' : 'Seuil Risque Financier'}
                       </span>
                     )}
@@ -2474,57 +2474,57 @@ export default function App() {
             </div>
 
             {/* Individual Operational KPI Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-5">
               
               {/* Sales HT */}
-              <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm relative group">
+              <div className="p-3.5 sm:p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm relative group">
                 <div className={`absolute top-0 w-1.5 h-full bg-indigo-500 ${lang === 'ar' ? 'right-0' : 'left-0'}`}></div>
-                <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Chiffre d'Affaires HT</p>
-                <div className="text-xl md:text-2xl font-extrabold text-indigo-600 dark:text-indigo-400 mb-1">{formatDA(selectedPrev.sales_ht)}</div>
-                <div className="text-[11px] text-slate-500">Taux de contribution active : {selectedPrev.share_pct}%</div>
+                <p className="text-[10px] sm:text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Chiffre d'Affaires HT</p>
+                <div className="text-xs min-[350px]:text-sm min-[390px]:text-base sm:text-2xl font-extrabold text-indigo-600 dark:text-indigo-400 mb-1">{formatDA(selectedPrev.sales_ht)}</div>
+                <div className="text-[9px] sm:text-[11px] text-slate-500">Contribution : {selectedPrev.share_pct}%</div>
               </div>
 
               {/* Outstanding Receivables */}
-              <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm relative group">
+              <div className="p-3.5 sm:p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm relative group">
                 <div className={`absolute top-0 w-1.5 h-full bg-rose-500 ${lang === 'ar' ? 'right-0' : 'left-0'}`}></div>
-                <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Reste à Recouvrer</p>
-                <div className="text-xl md:text-2xl font-extrabold text-rose-500 mb-1">
+                <p className="text-[10px] sm:text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Reste à Recouvrer</p>
+                <div className="text-xs min-[350px]:text-sm min-[390px]:text-base sm:text-2xl font-extrabold text-rose-500 mb-1">
                   {selectedPrev.outstanding > 0 ? formatDA(selectedPrev.outstanding) : '0,00 DA'}
                 </div>
-                <div className="text-[11px] text-slate-500 flex items-center gap-1">
+                <div className="text-[9px] sm:text-[11px] text-slate-500 flex items-center gap-1">
                   {selectedPrev.outstanding > 0 ? (
                     <span className="text-rose-500 font-bold flex items-center gap-0.5">
-                      <AlertTriangle className="w-3 h-3" /> {lang === 'ar' ? 'ميزان ديون قيد المراقبة' : 'Balance à surveiller'}
+                      <AlertTriangle className="w-3 h-3" /> {lang === 'ar' ? 'ميزان ديون' : 'À surveiller'}
                     </span>
                   ) : (
-                    <span className="text-emerald-500 font-bold">{lang === 'ar' ? 'الحساب مسوى بالكامل' : 'Compte entièrement purgé'}</span>
+                    <span className="text-emerald-500 font-bold">{lang === 'ar' ? 'مسوى بالكامل' : 'Purgé'}</span>
                   )}
                 </div>
               </div>
 
               {/* Recovery Rate */}
-              <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm relative group">
+              <div className="p-3.5 sm:p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm relative group">
                 <div className={`absolute top-0 w-1.5 h-full bg-emerald-500 ${lang === 'ar' ? 'right-0' : 'left-0'}`}></div>
-                <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">{t('recovery_rate_label')}</p>
-                <div className={`text-xl md:text-2xl font-extrabold mb-1 ${selectedPrev.recovery_rate < 90 ? 'text-rose-500' : 'text-emerald-500'}`}>
+                <p className="text-[10px] sm:text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">{t('recovery_rate_label')}</p>
+                <div className={`text-xs min-[350px]:text-sm min-[390px]:text-base sm:text-2xl font-extrabold mb-1 ${selectedPrev.recovery_rate < 90 ? 'text-rose-500' : 'text-emerald-500'}`}>
                   {selectedPrev.recovery_rate}%
                 </div>
-                <div className="text-[11px] text-slate-500">
+                <div className="text-[9px] sm:text-[11px] text-slate-500">
                   {selectedPrev.recovery_rate < 90 ? (
-                    <span className="text-rose-500 font-bold">Sous le seuil d'alerte (90%)</span>
+                    <span className="text-rose-500 font-bold">Sous 90%</span>
                   ) : (
-                    <span className="text-emerald-500 font-bold">{lang === 'ar' ? 'مستوى سداد ممتاز ومثالي' : `Excellent niveau d'apurement`}</span>
+                    <span className="text-emerald-500 font-bold">{lang === 'ar' ? 'سداد ممتاز' : `Excellent`}</span>
                   )}
                 </div>
               </div>
 
               {/* Basket & Deliveries */}
-              <div className="p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm relative group">
+              <div className="p-3.5 sm:p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm relative group">
                 <div className={`absolute top-0 w-1.5 h-full bg-teal-500 ${lang === 'ar' ? 'right-0' : 'left-0'}`}></div>
-                <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">{lang === 'ar' ? 'سلة المبيعات والفواتير' : 'Panier & Factures'}</p>
-                <div className="text-xl md:text-2xl font-extrabold text-teal-600 dark:text-teal-400 mb-1">{formatDA(selectedPrev.avg_basket)}</div>
-                <div className="text-[11px] text-slate-500">
-                  {lang === 'ar' ? 'الفواتير :' : 'Factures :'} <span className="font-semibold text-slate-800 dark:text-slate-300">{selectedPrev.invoices} BL</span> • {lang === 'ar' ? 'الزبائن :' : 'Clients :'} {selectedPrev.unique_clients}
+                <p className="text-[10px] sm:text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">{lang === 'ar' ? 'السلة والفواتير' : 'Panier & Factures'}</p>
+                <div className="text-xs min-[350px]:text-sm min-[390px]:text-base sm:text-2xl font-extrabold text-teal-600 dark:text-teal-400 mb-1">{formatDA(selectedPrev.avg_basket)}</div>
+                <div className="text-[9px] sm:text-[11px] text-slate-500">
+                  <span className="font-semibold text-slate-700 dark:text-slate-350">{selectedPrev.invoices} BL</span> • {selectedPrev.unique_clients} Clt
                 </div>
               </div>
 
@@ -2821,7 +2821,7 @@ export default function App() {
             </div>
 
             {/* Main Interactive Table Card */}
-            <div className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm overflow-hidden min-w-0">
+            <div className="p-3.5 sm:p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm overflow-hidden min-w-0">
               <div className="overflow-x-auto">
                 <table className="w-full text-left border-collapse min-w-[1000px]">
                   <thead>
