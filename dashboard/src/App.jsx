@@ -1110,15 +1110,7 @@ const DATASET = {
       type: 'Guide Opérationnel',
       url: '/GUIDE KPIs SILWANE - Mai 2026.pdf'
     },
-    {
-      id: 'rapport-analyse',
-      name: 'Rapport_Analyse.pdf',
-      title: 'Rapport d\'Analyse Commerciale',
-      size: '95.5 KB',
-      description: 'Audit et synthèse de performance consolidée globale pour mai 2026. Analyse critique des ratios de vente, du taux de recouvrement et des actions stratégiques requises.',
-      type: 'Rapport Stratégique',
-      url: '/Rapport_Analyse.pdf'
-    },
+
     {
       id: 'comparatif-prevendeurs',
       name: 'Rapport_Comparatif_Prevendeurs.pdf',
@@ -1519,7 +1511,7 @@ export default function App() {
   const [darkMode, setDarkMode] = useState(false);
   
   // Document state
-  const [selectedDocId, setSelectedDocId] = useState('rapport-analyse');
+  const [selectedDocId, setSelectedDocId] = useState('rapport-supervision');
 
   // Interactive Checklist states (Saved in state for full interaction!)
   const [checklist, setChecklist] = useState([
