@@ -1259,7 +1259,7 @@ const translateVerdict = (verdict, lang) => {
 };
 
 const generateDailySales = (totalSales, seedVal) => {
-  const days = 15;
+  const days = 13;
   const data = [];
   let currentSum = 0;
   for (let i = 1; i <= days; i++) {
